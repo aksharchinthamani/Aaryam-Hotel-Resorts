@@ -1,0 +1,148 @@
+{
+  "rooms": [
+    {
+      "id": "prithvi-suite",
+      "name": "Prithvi Suite (Garden Villa)",
+      "type": "Villa",
+      "price": 550,
+      "image": "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&q=80&w=1200",
+      "gallery": [
+        "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&q=80&w=1200",
+        "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80&w=1200",
+        "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=1200"
+      ],
+      "rating": 4.9,
+      "size": 850,
+      "maxGuests": 3,
+      "view": "Lush Forest View",
+      "description": "Inspired by the Earth elements, the Prithvi Suite features an expansive private garden terrace, elegant stone-carved wood-burning fireplace, and outdoor sky shower under tropical foliage. Soft natural linens and deep forest emerald walls evoke immediate harmony with nature.",
+      "amenities": [
+        "Private heated plunge pool",
+        "Stone fireplace",
+        "Outdoor sky shower",
+        "Artisanal espresso bar",
+        "Himalayan organic tea selection",
+        "High-speed Wi-Fi"
+      ]
+    },
+    {
+      "id": "vayu-cottage",
+      "name": "Vayu Cottage (Cloud Loft)",
+      "type": "Cottage",
+      "price": 450,
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&q=80&w=1200",
+      "gallery": [
+        "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&q=80&w=1200",
+        "https://images.unsplash.com/photo-1432303491146-c21e612ec4e3?auto=format&fit=crop&q=80&w=1200",
+        "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&q=80&w=1200"
+      ],
+      "rating": 4.8,
+      "size": 650,
+      "maxGuests": 2,
+      "view": "Misty Valley View",
+      "description": "Hovering smoothly over the mist-clad cliffs, Vayu Cottage embraces the Air element with an elegant retractable glass ceiling designed for absolute Himalayan stargazing. Relax in premium organic-yarn handwoven hammocks on your expansive cantilevering wrap-around valley balcony.",
+      "amenities": [
+        "Retractable glass stargazing ceiling",
+        "En-suite hammock balcony",
+        "Double vanity copper sinks",
+        "Organic handwoven slippers and robes",
+        "Pillow menu selection",
+        "Sound system"
+      ]
+    },
+    {
+      "id": "tejas-suite",
+      "name": "Tejas Suite (Golden Pavilion)",
+      "type": "Suite",
+      "price": 750,
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&q=80&w=1200",
+      "gallery": [
+        "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&q=80&w=1200",
+        "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&q=80&w=1200",
+        "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&q=80&w=1200"
+      ],
+      "rating": 5,
+      "size": 1100,
+      "maxGuests": 4,
+      "view": "Himalayan Golden Peaks View",
+      "description": "Embodying the vibrant energy of Fire & Gold, this majestic suite features private sunlit pavilions, stunning infinity hot tub views directly looking at peak elevation, a personal butler service, and an exquisite copper accent design, making it the masterpiece of Aaryam.",
+      "amenities": [
+        "Infinity edge outdoor hot tub",
+        "Personal elite butler service",
+        "Himalayan salt vapor sauna",
+        "Premium custom soundbar",
+        "Bespoke welcome decanter",
+        "Pre-reserved dining lounge access"
+      ]
+    },
+    {
+      "id": "jal-sanctuary",
+      "name": "Jal Sanctuary (River Chalet)",
+      "type": "Sanctuary",
+      "price": 650,
+      "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=1200",
+      "gallery": [
+        "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=1200",
+        "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&q=80&w=1200",
+        "https://images.unsplash.com/photo-1611891487122-207579d67d98?auto=format&fit=crop&q=80&w=1200"
+      ],
+      "rating": 4.9,
+      "size": 950,
+      "maxGuests": 3,
+      "view": "Rushing Mountain Stream View",
+      "description": "Suspending elegantly over our clean crystal-water stream, Jal Sanctuary radiates peaceful, tranquil currents. Wood-paneled walls in polished teak, water-facing premium lounge zones, and an outdoor river-front hot cedar tub let you immerse directly in continuous flowing bliss.",
+      "amenities": [
+        "Outdoor cedar soaking tub",
+        "Floating breakfast experience",
+        "Glass-floor stream viewing window",
+        "Handmade organic soap selection",
+        "Floor-to-ceiling slide windows",
+        "Ambient water sound meditation deck"
+      ]
+    }
+  ],
+  "bookings": [
+    {
+      "id": "bk-09122",
+      "roomId": "vayu-cottage",
+      "roomName": "Vayu Cottage (Cloud Loft)",
+      "guestName": "Sarah Laurent",
+      "guestEmail": "sarah.l@luxurytraveler.com",
+      "checkIn": "2026-06-15",
+      "checkOut": "2026-06-18",
+      "guestsCount": 2,
+      "totalAmount": 1350,
+      "status": "confirmed",
+      "specialRequests": "We are celebrating our 5th anniversary. Would appreciate a quiet cottage and stargazing recommendations.",
+      "createdAt": "2026-05-25T11:20:00Z"
+    },
+    {
+      "id": "bk-18112",
+      "roomId": "prithvi-suite",
+      "roomName": "Prithvi Suite (Garden Villa)",
+      "guestName": "Dr. Aarav Mehta",
+      "guestEmail": "aarav.mehta@himalayanclinics.org",
+      "checkIn": "2026-07-02",
+      "checkOut": "2026-07-08",
+      "guestsCount": 1,
+      "totalAmount": 3300,
+      "status": "pending",
+      "specialRequests": "Would love an early morning yoga master class reserved.",
+      "createdAt": "2026-05-28T14:40:00Z"
+    },
+    {
+      "id": "bk-90586",
+      "roomId": "prithvi-suite",
+      "roomName": "Prithvi Suite (Garden Villa)",
+      "guestName": "akshar",
+      "guestEmail": "aksharchinthamani@gmail.com",
+      "checkIn": "2026-05-28",
+      "checkOut": "2026-05-31",
+      "guestsCount": 2,
+      "totalAmount": 1650,
+      "status": "pending",
+      "specialRequests": "",
+      "createdAt": "2026-05-28T17:42:26.984Z"
+    }
+  ]
+}
