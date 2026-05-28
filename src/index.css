@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Playfair Display", serif;
+  --font-sans: "Inter", sans-serif;
+  
+  --color-luxury-green-950: #0a170f;
+  --color-luxury-green-900: #1b3022;
+  --color-luxury-green-800: #2c4a35;
+  --color-luxury-green-700: #3e6349;
+  --color-luxury-gold-50: #f5f5f0;
+  --color-luxury-gold-100: #e2e2d9;
+  --color-luxury-gold-200: #d6ccbe;
+  --color-luxury-gold-500: #d4af37;
+  --color-luxury-gold-600: #bfa02e;
+  --color-luxury-gold-700: #a58721;
+}
+
+/* Custom scrollbar to keep it sleek and high-end */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-luxury-gold-50);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-luxury-gold-500);
+  border-radius: 3px;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+.font-serif-luxury {
+  font-family: var(--font-display);
+}
+
+/* Frosted Glass Class Utility Presets matches design requirement */
+.frosted-glass-card {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(24px) saturate(140%);
+  -webkit-backdrop-filter: blur(24px) saturate(140%);
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 10px 30px -10px rgba(27, 48, 34, 0.12),
+              0 1px 3px rgba(255, 255, 255, 0.8) inset;
+}
+
+.frosted-glass-card-dark {
+  background: rgba(10, 23, 15, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 35px -5px rgba(0, 0, 0, 0.5);
+}
+
+.luxury-gradient {
+  background: linear-gradient(135deg, var(--color-luxury-green-950) 0%, var(--color-luxury-green-900) 100%);
+}
+
+.linen-gradient {
+  background: linear-gradient(135deg, #f5f5f0 0%, #e2e2d9 100%);
+}
+
+.luxury-gold-gradient {
+  background: linear-gradient(135deg, var(--color-luxury-gold-700) 0%, var(--color-luxury-gold-500) 50%, #e8d184 100%);
+}
+
+.luxury-text-gradient {
+  background: linear-gradient(135deg, var(--color-luxury-green-900) 0%, var(--color-luxury-gold-700) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
