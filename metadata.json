@@ -1,0 +1,6 @@
+{
+  "name": "Aaryam Hotel & Resorts",
+  "description": "A premium eco-luxury resort nestled in the serene hills, offering ultimate comfort, fine dining, and wellness experiences.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
